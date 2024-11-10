@@ -7,6 +7,7 @@ import {learningProfile} from './learning-profile'
 import {projects} from './projects'
 import {course} from './course'
 import {courseSection} from './course-section'
+import {imageUpload} from './image'
 
 export const schemaTypes = [
   blockContent,
@@ -18,4 +19,5 @@ export const schemaTypes = [
   projects,
   course,
   courseSection,
+  imageUpload,
 ]
