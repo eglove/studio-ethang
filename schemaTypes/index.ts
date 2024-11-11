@@ -1,14 +1,15 @@
-import {job} from './job'
-import blockContent from './block-content'
-import technology from './technology'
-import methodology from './methodology'
-import {certification} from './certification'
-import {learningProfile} from './learning-profile'
-import {projects} from './projects'
-import {course} from './course'
-import {courseSection} from './course-section'
-import {imageUpload} from './image'
-import {courseList} from './course-list'
+import { job } from "./job";
+import blockContent from "./block-content";
+import technology from "./technology";
+import methodology from "./methodology";
+import { certification } from "./certification";
+import { learningProfile } from "./learning-profile";
+import { projects } from "./projects";
+import { course } from "./course";
+import { courseSection } from "./course-section";
+import { imageUpload } from "./image";
+import { courseList } from "./course-list";
+import { blog } from "./blog";
 
 export const schemaTypes = [
   blockContent,
@@ -22,4 +23,5 @@ export const schemaTypes = [
   courseSection,
   courseList,
   imageUpload,
-]
+  blog,
+];
