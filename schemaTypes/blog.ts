@@ -42,13 +42,6 @@ export const blog = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
-      name: "authors",
-      title: "Authors",
-      type: "array",
-      of: [{ type: "string" }],
-      validation: (rule) => rule.required(),
-    }),
-    defineField({
       name: "tags",
       title: "Tags",
       type: "array",
