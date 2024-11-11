@@ -50,7 +50,14 @@ export const blog = defineType({
     defineField({
       name: "featuredImage",
       title: "Featured Image",
-      type: "imageUpload",
+      type: "reference",
+      to: [{ type: "imageUpload" }],
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
+      name: "blog",
+      title: "Block",
+      type: "blockContent",
       validation: (rule) => rule.required(),
     }),
   ],
